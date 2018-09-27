@@ -1,0 +1,26 @@
+{
+  "name": "thegraph",
+  "version": "1.0.0",
+  "description": "A simple, minimal, no nonsense graph library with shortest-path finding.",
+  "main": "graph.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vizcosity/theGraph.git"
+  },
+  "keywords": [
+    "graph",
+    "node",
+    "edges",
+    "dag",
+    "disjkra"
+  ],
+  "author": "Aaron Baw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vizcosity/theGraph/issues"
+  },
+  "homepage": "https://github.com/Vizcosity/theGraph#readme"
+}
