@@ -1,6 +1,12 @@
-# theGraph
+<p align="center">
+<img height="200px" align="center" src="https://i.imgur.com/9vwD10z.png" />
+</p>
 
-A simple, minimalistic, no-nonsense graph library for Node.js.
+<h1 style="border-bottom: none:" align="center">theGraph</h1>
+
+<p align="center">A simple, minimalistic, no-nonsense graph library for Node.js.</p>
+
+
 
 ### Installation
 ```JavaScript
@@ -30,5 +36,4 @@ graph.addEdge('c', 'd', {relationship: 'Consecutive'});
 // Find shortest path between nodes.
 var path = graph.getShortestPath('a', 'd');
 ```
-
-Happy graphing!
+<p align="center"><sub><strong>Made with ❤️ & ☕️ from 🇬🇮</strong></sub></p>
