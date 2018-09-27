@@ -16,7 +16,7 @@
 ### Usage
 
 ```JavaScript
-const Graph = require('theGraph');
+const Graph = require('thegraph.io');
 var graph = new Graph();
 
 // Add vertices.
