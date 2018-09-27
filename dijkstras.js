@@ -44,7 +44,7 @@ function dijkstras(startNode, endNode, graph, Graph){
   // Continue looping until base case is that the univistedVertices set is empty.
   while (unvisitedVertices.vertices().length !== 0){
 
-    console.log("Current Node: " + currentNode);
+    log("Current Node: " + currentNode);
 
     // Get all adjacent nodes from the current node (that the current node directs
     // to).
@@ -75,15 +75,15 @@ function dijkstras(startNode, endNode, graph, Graph){
         through: currentNode
       };
 
-      console.log("Existing Distance Info: ");
-      console.log(existingDistanceInfo);
+      log("Existing Distance Info: ");
+      log(existingDistanceInfo);
 
       // Compare the two distances and choose to record the shortest.
       if (newDistanceInfo.val < existingDistanceInfo.val)
         distance[vertex] = newDistanceInfo;
 
-      console.log("New distance Info: ");
-      console.log(newDistanceInfo);
+      log("New distance Info: ");
+      log(newDistanceInfo);
 
     });
 
@@ -152,7 +152,7 @@ function getNearestVertex(graph, startVertex){
 
   var connectedVertices = graph.getVerticesFrom(startVertex);
 
-  console.log(connectedVertices);
+  log(connectedVertices);
 
   // Gets the nearest vertex based off of the weights of the associated edges.
   Object.keys(connectedVertices).forEach(id => {
@@ -172,10 +172,15 @@ function getNearestVertex(graph, startVertex){
 
   });
 
-  console.log("Nearest vertex: ");
-  console.log(nearestVertex);
+  log("Nearest vertex: ");
+  log(nearestVertex);
 
   // After the iteration, return the result.
   return (nearestVertex ? nearestVertex.destination : nearestVertex);
 
+}
+
+// Logging
+function log(...msg){
+  if (process.env.DEBUG) console.log(`DIJKSTRA |`, ...msg);
 }
