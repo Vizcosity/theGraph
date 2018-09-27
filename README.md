@@ -28,7 +28,7 @@ graph.addVertex('f', {type: 'Character'});
 // Add edges between nodes.
 graph.addEdge('a', 'b');
 
-// Edges an have associated objects (e.g. weight)
+// Edges can have associated objects (e.g. weight)
 graph.addEdge('b', 'c', {weight: 20});
 
 graph.addEdge('c', 'd', {relationship: 'Consecutive'});
