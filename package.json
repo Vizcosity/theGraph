@@ -1,5 +1,5 @@
 {
-  "name": "thegraph",
+  "name": "thegraph.io",
   "version": "1.0.0",
   "description": "A simple, minimal, no nonsense graph library with shortest-path finding.",
   "main": "graph.js",

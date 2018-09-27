@@ -10,7 +10,7 @@
 
 ### Installation
 ```JavaScript
-  npm install theGraph
+  npm install thegraph.io
 ```
 
 ### Usage
