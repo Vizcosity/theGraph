@@ -2,7 +2,7 @@
 <img height="200px" align="center" src="https://i.imgur.com/9vwD10z.png" />
 </p>
 
-<h1 style="border-bottom: none:" align="center">theGraph</h1>
+<h1 style="border-bottom: none:" align="center">theGraph.io</h1>
 
 <p align="center">A simple, minimalistic, no-nonsense graph library for Node.js.</p>
 
